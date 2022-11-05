@@ -1,12 +1,11 @@
+import Header from '../../Header/header'
 import './style.css'
 import { Container, Row, Col } from 'react-bootstrap';
 
 
 function Home() {
     return (
-        <div>
             <h1>Home</h1>
-        </div>
         // <Container>
         //     <Row className="justify-content-md-center">
         //         <Col xs lg="2">
@@ -17,9 +16,7 @@ function Home() {
         //                     3 of 3
         //         </Col>
         //     </Row>
-        // <Container />
-
-        
+        // <Container />  
     )
 }
 
