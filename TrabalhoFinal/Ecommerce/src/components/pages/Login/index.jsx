@@ -1,6 +1,7 @@
 import "./style.css";
 import { useState } from "react";
 import Header from "../../Header/header";
+import Footer from "../../Footer/footer";
 
 
 
@@ -42,7 +43,7 @@ const Login = () => {
           <input type="button" value="ENTRAR" onClick={handleLogin} />
         </div>
       </div>
-
+      <Footer/>
     </>
   );
 };
