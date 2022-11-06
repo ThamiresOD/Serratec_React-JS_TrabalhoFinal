@@ -9,7 +9,16 @@
 body {
     background-image: url(../Images/1.jpg);
     background-repeat: no-repeat;
-    /* background-size: cover;
+}
+ 
+.notfound {
+    display: flex;
     width: 100vw;
-    height: 100vh; */
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+} 
+
+h3 {
+    color: bisque;
 }
