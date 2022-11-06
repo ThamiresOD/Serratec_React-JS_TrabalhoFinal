@@ -4,8 +4,9 @@ import './style.css'
 function Produto() {
     return (
         <main>
-            <Header/>
+            <Header />
             <h1>Produto</h1>
+            <Footer />
         </main>
     )
 }

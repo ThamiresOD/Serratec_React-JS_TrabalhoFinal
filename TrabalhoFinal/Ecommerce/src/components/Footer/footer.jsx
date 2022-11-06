@@ -7,6 +7,9 @@ const Footer = () => {
         <div>
           <h5>Aquarium</h5>
         </div>
+        <div className="botaoTop">
+          <button>⬆️</button>
+        </div>
       </footer>
     </>
   );

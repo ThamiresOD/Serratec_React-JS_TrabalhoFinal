@@ -1,0 +1,36 @@
+
+main{
+   justify-content: center; 
+}
+
+.caroussel {
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.Categorias {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    gap: 5%;
+}
+
+h1 {
+    text-align: center;
+    color: #beee3b;
+}
+
+
+/* .color1 { #484848 };
+.color2 { #006465 };
+.color3 { #0f928c };
+.color4 { #00c9d2 };
+.color5 { #beee3b }; */
+
+

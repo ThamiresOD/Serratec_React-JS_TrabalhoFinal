@@ -1,3 +1,14 @@
+
+body {
+  background-image: url(../Images/1.jpg);
+  background-repeat: no-repeat;
+  /* background-size: cover;
+  width: 100vw;
+  height: 100vh; */
+}
+
+
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
