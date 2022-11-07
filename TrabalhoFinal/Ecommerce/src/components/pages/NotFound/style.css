@@ -8,9 +8,10 @@
 
 body {
     background-image: url(../Images/1.jpg);
-    background-repeat: no-repeat;;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
- 
+
 .notfound {
     display: flex;
     width: 100vw;

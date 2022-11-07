@@ -10,6 +10,7 @@ main{
     height: 50vh;
     margin: auto;
     margin-top: 5vh;
+
 }
 
 .tituloCategoria {
@@ -30,7 +31,7 @@ main{
     align-items: center;
     width: 100vw;
     height: 50vh;
-    gap: 10%;
+    gap: 5%;
 }
 
 .categoria {
