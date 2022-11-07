@@ -2,6 +2,19 @@ import "./style.css";
 import { useState } from "react";
 import Header from "../../Header/header";
 import Footer from "../../Footer/footer";
+import React from 'react';
+import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
+
+import {
+  MDBBtn,
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBIcon,
+  MDBInput
+}
+from 'mdb-react-ui-kit';
 
 
 
@@ -17,33 +30,39 @@ const Login = () => {
 
   return (
     <>
-      <Header/>
-      <div>
-        <h1>Faça seu Login</h1>
+      <Header />
+      <MDBContainer fluid>
+        <MDBRow>
 
-        <div>
-          <h2>Login</h2>
-          <input
-            type="text"
-            placeholder="Digite seu login"
-            value={login}
-            onChange={(e) => setLogin(e.target.value)}
-          />
+          <MDBCol sm='6' className="login">
 
-          <h2>Senha</h2>
-          <input
-            type="password"
-            placeholder="Digite sua senha"
-            value={senha}
-            onChange={(e) => setSenha(e.target.value)}
-          />
-        </div>
+            <div className='d-flex flex-row ps-5 pt-5'>
+              <MDBIcon fas icon="crow fa-3x me-3" style={{ color: '#709085' }} />
+            </div>
 
-        <div style={{ marginTop: 20 }}>
-          <input type="button" value="ENTRAR" onClick={handleLogin} />
-        </div>
-      </div>
-      <Footer/>
+            <div className='d-flex flex-column justify-content-center h-custom-2 w-75 pt-4'>
+
+              <h3 className="fw-normal mb-3 ps-5 pb-3" style={{ letterSpacing: '1px' }}>Log in</h3>
+
+              <MDBInput wrapperClass='mb-4 mx-5 w-100' label='Email' id='formControlLg' type='email' size="lg" />
+              <MDBInput wrapperClass='mb-4 mx-5 w-100' label='Senha' id='formControlLg' type='password' size="lg" />
+
+              <Button variant="primary" className="botao">ENTRAR</Button>{' '}
+
+
+            </div>
+
+          </MDBCol>
+
+          <MDBCol sm='6' className='d-none d-sm-block px-0'>
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img3.webp"
+              alt="Login image" className="w-100" style={{ objectFit: 'cover', objectPosition: 'left', height: 577 }} />
+          </MDBCol>
+
+        </MDBRow>
+
+      </MDBContainer>
+
     </>
   );
 };
