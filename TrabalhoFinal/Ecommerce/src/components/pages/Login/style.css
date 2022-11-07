@@ -1,59 +1,59 @@
-.botao{
-  margin-left: 80px;
-}
-
-.login{
-  margin-top: 5%;
-}
-
-.imagem {
-  height: 75%;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.title{
+  color: white;
+
 }
 
+#login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+  height: 67.4vh;
 
-#root {
-  margin: 0 auto;
+}
+
+#login .form{
+  background-color:  #212529;
+  width: 100%;
+  max-width: 480px;
+  padding: 2.0rem;
+  border-radius: 5px;
+}
+
+#login .field{
+  padding-bottom: 0.5rem;
+}
+
+#login .field label{
+  display: block;
+  color: white;
+}
+
+#login .field input{
+  width: 100%;
+}
+
+#login .actions{
   text-align: center;
+  margin-top: 1rem;
+  color: aqua;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.entrar{
+  color: rgb(255, 255, 255);
+  background-color: rgb(74, 190, 211);
+  padding: 5px;
+  border-radius: 5px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  opacity: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */

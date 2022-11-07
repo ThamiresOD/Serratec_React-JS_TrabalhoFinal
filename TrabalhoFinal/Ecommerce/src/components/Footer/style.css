@@ -7,7 +7,7 @@
     width: 100%;
     color: #ffffdd;
     display: flex;
-    height: 50px;
+    height: 50vh;
     background-color: #212529;
     align-items: center;
     justify-content: center;
@@ -40,5 +40,3 @@ button {
 button:hover {
     opacity: .8;
 }
-
-

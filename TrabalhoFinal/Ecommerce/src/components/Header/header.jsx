@@ -3,8 +3,17 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Logo from "../pages/Images/logo.png";
 import "./style.css";
+import { AuthContext } from "../contexts/auth";
+import { useContext } from "react";
 
 const Header = () => {
+  const { logout } = useContext(AuthContext)
+
+  const handleLogout = () => {
+    logout();
+    navigate("/");
+  }
+
   return (
     <>
       <Navbar bg="dark" variant="dark">
@@ -14,11 +23,14 @@ const Header = () => {
             <Navbar.Brand href={"/home"}>Aquarium</Navbar.Brand>
           </div>
           <div>
-            <Nav className="me-auto">
-              <Nav.Link href={"/carrinho"}>Carrinho</Nav.Link>
-              <Nav.Link href={"/produto"}>Produtos</Nav.Link>
-              <Nav.Link href={"/faleconosco"}>Fale Conosco</Nav.Link>
-            </Nav>
+
+          <Nav className="me-auto">
+            <Nav.Link href={"/carrinho"}>Carrinho</Nav.Link>
+            <Nav.Link href={"/produto"}>Produtos</Nav.Link>
+            <Nav.Link href={"/faleconosco"}>Fale Conosco</Nav.Link>
+            <Nav.Link onClick={handleLogout}>Logout</Nav.Link>
+          </Nav>
+          
           </div>
         </Container>
       </Navbar>
