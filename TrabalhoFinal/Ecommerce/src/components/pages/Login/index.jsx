@@ -1,5 +1,5 @@
 import "./style.css";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import Header from "../../Header/header";
 import Footer from "../../Footer/footer";
 import React from 'react';
@@ -14,24 +14,67 @@ import {
   MDBIcon,
   MDBInput
 }
-from 'mdb-react-ui-kit';
+  from 'mdb-react-ui-kit';
+
+import { AuthContext } from "../../contexts/auth";
 
 
 
 
 const Login = () => {
-  const [login, setLogin] = useState("");
-  const [senha, setSenha] = useState("");
+  const { authenticated, login } = useContext
+  (AuthContext);
 
-  const handleLogin = () => {
-    console.log("Login: ", login);
-    console.log("Senha: ", senha);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+
+  const handleLogin = (e) => {
+    e.preventDefault()
+    console.log("Login efetuado", { email, password });
+
+    login(email, password);
   };
 
   return (
     <>
       <Header />
-      <MDBContainer fluid>
+
+      <div id="login">
+        <h1 className="title">LOGIN:</h1>
+        <p>{String(authenticated)}</p>
+        <form className="form" onSubmit={handleLogin}>
+          <div className="field">
+            <label htmlFor="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="exemplo@email.com"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+          </div>
+          <div className="field">
+            <label htmlFor="password">Senha</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Digite sua senha"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+          </div>
+          <div className="actions">
+            <button className="entrar" type="submit">Entrar</button>
+          </div>
+        </form>
+      </div>
+
+
+
+      {/* <MDBContainer fluid>
         <MDBRow>
 
           <MDBCol sm='6' className="login">
@@ -61,7 +104,9 @@ const Login = () => {
 
         </MDBRow>
 
-      </MDBContainer>
+      </MDBContainer> */}
+
+
 
     </>
   );
