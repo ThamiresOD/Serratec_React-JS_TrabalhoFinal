@@ -11,6 +11,12 @@ import Carousel from 'react-bootstrap/Carousel'
 
 
 function Home() {
+    const items = [
+        { id: 1, title: 'Titulo 1', descricao: 'Descrição 1', categoria: 'categoria 1' },
+        { id: 2, title: 'Titulo 2', descricao: 'Descrição 2', categoria: 'categoria 2' }
+    ]
+
+
     return (
         <>
             <Header />
@@ -56,12 +62,12 @@ function Home() {
                     </Carousel>
                 </div>
 
-                <div>
+                <div className='tituloCategoria'>
                     <h1>Menu de Categorias</h1>
                 </div>
 
-                <div className='Categorias'>
-                    <Card className="categoria1" style={{ width: '18rem' }}>
+                <div className='categorias'>
+                    <Card className="categoria" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={fotoProduto} />
                         <Card.Body>
                             <Card.Title>Card Title: categoria 1</Card.Title>
@@ -69,10 +75,10 @@ function Home() {
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="Dark">Go somewhere</Button>
                         </Card.Body>
                     </Card>
-                    <Card className="categoria2" style={{ width: '18rem' }}>
+                    <Card className="categoria" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={fotoProduto} />
                         <Card.Body>
                             <Card.Title>Card Title: categoria 2</Card.Title>
@@ -80,11 +86,78 @@ function Home() {
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="Dark">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                    <Card className="categoria" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={fotoProduto} />
+                        <Card.Body>
+                            <Card.Title>Card Title: categoria 2</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the
+                                bulk of the card's content.
+                            </Card.Text>
+                            <Button variant="Dark">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                    <Card className="categoria" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={fotoProduto} />
+                        <Card.Body>
+                            <Card.Title>Card Title: categoria 2</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the
+                                bulk of the card's content.
+                            </Card.Text>
+                            <Button variant="Dark">Go somewhere</Button>
                         </Card.Body>
                     </Card>
                 </div>
-                
+                <div className='categorias'>
+                    <Card className="categoria" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={fotoProduto} />
+                        <Card.Body>
+                            <Card.Title>Card Title: categoria 1</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the
+                                bulk of the card's content.
+                            </Card.Text>
+                            <Button variant="Dark">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                    <Card className="categoria" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={fotoProduto} />
+                        <Card.Body>
+                            <Card.Title>Card Title: categoria 2</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the
+                                bulk of the card's content.
+                            </Card.Text>
+                            <Button variant="Dark">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                    <Card className="categoria" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={fotoProduto} />
+                        <Card.Body>
+                            <Card.Title>Card Title: categoria 2</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the
+                                bulk of the card's content.
+                            </Card.Text>
+                            <Button variant="Dark">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                    <Card className="categoria" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={fotoProduto} />
+                        <Card.Body>
+                            <Card.Title>Card Title: categoria 2</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the
+                                bulk of the card's content.
+                            </Card.Text>
+                            <Button variant="Dark">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                </div>
             </main>
 
             <Footer />

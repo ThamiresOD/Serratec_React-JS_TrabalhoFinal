@@ -1,4 +1,5 @@
 
+
 main{
    justify-content: center; 
 }
@@ -6,25 +7,39 @@ main{
 .caroussel {
     display: flex;
     justify-content: center;
-    width: 60vw;
-    height: 70vh;
+    width: 40vw;
+    height: 50vh;
     margin: auto;
     margin-top: 5vh;
+
 }
 
-.Categorias {
-    display: inline-flex;
+.tituloCategoria {
+    text-align: center;
+    color: #beee3b;
+    height: 5vh;
+}
+
+.accordion {
+    width: 80vw;
+    margin: auto;
+}
+
+
+.categorias {
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 80vh;
+    height: 50vh;
     gap: 5%;
 }
 
-h1 {
-    text-align: center;
-    color: #beee3b;
+.categoria {
+    position: absolute;
 }
+
+
 
 
 /* .color1 { #484848 };

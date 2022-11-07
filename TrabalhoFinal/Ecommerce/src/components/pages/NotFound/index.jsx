@@ -9,7 +9,7 @@ function NotFound() {
             <Header />
             <main className='notfound'>
                 <div>
-                    <h1>Eroor 404</h1>
+                    <h1>Error 404</h1>
                     <h2>Page Not Found</h2>
                     <h3><br></br>Ser rápido só tem interesse<br></br> se temos o azimute certo!</h3>
                 </div>
