@@ -66,9 +66,7 @@ function Home() {
                     <h1>Menu de Categorias</h1>
                 </div>
 
-
                 <div className='categorias'>
-
                     <Card className="categoria" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={fotoProduto} />
                         <Card.Body>
@@ -160,8 +158,6 @@ function Home() {
                         </Card.Body>
                     </Card>
                 </div>
-
-                
             </main>
 
             <Footer />
