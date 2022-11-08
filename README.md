@@ -50,7 +50,7 @@ Ele acredita que transformar sua loja em um E-commerce será um ótimo investime
 
 ##
 
-<h2>Imagens do projeto:</h2>
+<h2>💻 Imagens do projeto:</h2>
 
 ##
 
