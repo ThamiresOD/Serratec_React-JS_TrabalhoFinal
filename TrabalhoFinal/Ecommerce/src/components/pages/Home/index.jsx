@@ -43,9 +43,6 @@ const Home = () => {
                     );
                 })}
             </div>
-            <div className='videobg'>
-                <video src={WaterBg} autoPlay loop muted />
-            </div>
             <Footer />
         </>
 

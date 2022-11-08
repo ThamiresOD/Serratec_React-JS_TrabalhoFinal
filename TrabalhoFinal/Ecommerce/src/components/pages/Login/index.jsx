@@ -2,7 +2,6 @@ import "./style.css";
 import { useState, useContext } from "react";
 import Header from "../../Header/header";
 import React from 'react';
-import WaterBg from '../Videos/WaterBg.mp4'
 import { AuthContext } from "../../contexts/auth";
 
 
@@ -51,9 +50,6 @@ const Login = () => {
             <button className="entrar" type="submit">Entrar</button>
           </div>
         </form>
-      </div>
-      <div className='videobg'>
-        <video src={WaterBg} autoPlay loop muted />
       </div>
     </>
   );
