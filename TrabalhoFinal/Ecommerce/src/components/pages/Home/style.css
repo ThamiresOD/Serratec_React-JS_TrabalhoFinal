@@ -7,10 +7,12 @@ h3{
     align-content: center;
     justify-content: center;
     position: relative;
-    z-index: 2;
+    background-image: url(../Images/1.jpg);
+    background-size: cover;
     padding: 2%;
    
 }
+
 
 .card {
     color: #beee3b;
@@ -21,15 +23,4 @@ h3{
     margin: 2px;
     
 }
-
-.videobg {
-    position: relative;
-    z-index: 1;
-  }
-
-
-
-
-
-
 
