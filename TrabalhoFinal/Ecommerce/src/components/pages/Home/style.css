@@ -3,22 +3,20 @@ h3{
     color: black;
 }
 .home {
-    display: grid;
+    display: flex;
     align-content: center;
-    margin: auto;
-    margin-left: 20vw;
+    justify-content: center;
     position: absolute;
-    margin-top: 5vh;
+
 }
 
 
 .card {
     color: #beee3b;
-    margin-bottom: 5vh;
+    margin-bottom: 2px;
     align-items: center;
     text-align: center;
-    padding: 8px;
-    margin: 5px;
+    padding: 6px;
 }
 
 
