@@ -27,11 +27,11 @@ const Home = () => {
         <>
             <Header />
             <Navbar/>
-            <div className="home col-3 container-fluid">
+            <div className="home row container-fluid">
                 {data.map((item, index) => {
                     item.quantity = 1;
                     return (
-                        <div className="card" key={index}>
+                        <div className="card col-3" key={index}>
                             <img src={item.imagUrl} width="180" alt="" />
                             <p>{item.titulo}</p>
                             <p>{item.descricao}</p>
