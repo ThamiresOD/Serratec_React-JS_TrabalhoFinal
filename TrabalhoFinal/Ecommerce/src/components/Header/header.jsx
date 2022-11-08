@@ -18,11 +18,11 @@ const Header = () => {
     navigate("/");
   }
 
-  // useEffect(()=> {
-  //   if(user != null){
-  //     SetLoginOut("Logout")
-  //   }
-  // },[]);
+  useEffect(()=> {
+    if(localStorage == null){
+      SetLoginOut("logout")
+    }
+  },[]); 
   
 
   return (
