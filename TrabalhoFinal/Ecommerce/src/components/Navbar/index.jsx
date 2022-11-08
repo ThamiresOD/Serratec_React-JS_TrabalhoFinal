@@ -5,8 +5,8 @@ import { FiShoppingCart } from 'react-icons/fi'
 const Navbar = () => {
   return (
     <div className="nav_box">
-      <NavLink to="/home">home</NavLink>
-      <NavLink to="/carrinho">Carrinho <FiShoppingCart/></NavLink>
+      <NavLink to="/home" style={{color: 'white'}}>home</NavLink>
+      <NavLink to="/carrinho" style={{color: 'white'}}>Carrinho <FiShoppingCart/></NavLink>
     </div>
   );
 };

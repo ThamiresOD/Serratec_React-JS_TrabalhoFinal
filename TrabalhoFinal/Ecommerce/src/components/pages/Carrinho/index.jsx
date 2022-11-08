@@ -1,4 +1,5 @@
 import Header from '../../Header/header'
+import Navbar from '../../Navbar'
 import './style.css'
 
 import { useContext } from "react";
@@ -16,6 +17,7 @@ const Carrinho = () => {
   return (
     <>
     <Header/>
+    <Navbar/>
     <div className="cart">
       {state.map((item, index) => {
         return (
@@ -40,9 +42,9 @@ const Carrinho = () => {
                 -
               </button>
             </div>
-            <h2 onClick={() => dispatch({ type: "REMOVE", payload: item })}>
+            <button className='remover'onClick={() => dispatch({ type: "REMOVE", payload: item })}>
               x
-            </h2>
+            </button>
           </div>
         );
       })}

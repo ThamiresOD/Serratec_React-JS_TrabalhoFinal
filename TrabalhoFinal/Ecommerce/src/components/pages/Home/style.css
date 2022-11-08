@@ -1,32 +1,7 @@
-.nav{
-    width: 80%;
-    height: 60px;
-    background-color: #AEE637;
 
+h3{
+    color: black;
 }
-.nav_box{
-    width: 100%;
-    margin: auto;
-    display: flex;
-    padding: 5px;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #AEE637;
-
-}
-.my_shop{
-    font-size: 1rem;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
-}
-.cart{
-    cursor: pointer;
-    color: white;
-    padding: 0 8px;
-    font-size: 1.5rem;
-}
-
 .home {
     display: grid;
     align-content: center;
@@ -40,7 +15,9 @@
 .card {
     color: #beee3b;
     margin-bottom: 5vh;
-
+    align-items: center;
+    text-align: center;
+    padding: 8px;
 }
 
 

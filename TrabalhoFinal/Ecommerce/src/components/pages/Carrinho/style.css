@@ -1,4 +1,9 @@
-
+p{
+  opacity: 1;
+}
+h2{
+  color: black;
+}
 .cart {
   display: flex;
   flex-direction: column;
@@ -10,6 +15,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 5px;
 }
 .cart .card img {
   width: 100px;
@@ -31,10 +37,19 @@
   text-align: center;
   color: black;
 }
+
 .cart .card .quantity button {
-  width: 50px;
+  width: 30px;
+  height: 30px;
+  border-radius: 20%;
+ 
 }
 .cart .total {
   text-align: right;
   border-top: 1px solid black;
+}
+.remover{
+  margin-right: 30px;
+  padding: 2px;
+  border-radius: 20%;
 }
