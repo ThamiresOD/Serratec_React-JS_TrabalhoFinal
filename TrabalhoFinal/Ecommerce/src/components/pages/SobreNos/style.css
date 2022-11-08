@@ -22,8 +22,8 @@
     align-items: center;
     text-align: center;
     padding: 3rem;
-    background-image: url(../Images/1.jpg);
-    background-size: cover;
+    position: absolute;
+    z-index: 2;
 }
 
 .sobreNos img{
@@ -71,4 +71,9 @@
 
 .informacao a:hover{
     color: rgb(144, 255, 244);
+}
+
+video {
+    width: 100%;
+    object-fit: cover;
 }
