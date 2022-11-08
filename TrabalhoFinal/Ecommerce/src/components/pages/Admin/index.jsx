@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react'
 import './style.css'
-import api from '../../../service/api';
+import api from '../../../service/api'
 import { Button, Container, Form, Stack } from 'react-bootstrap';
 import CardProduto from '../../Cards'
+import Busca from '../Busca'
+
 
 
 
@@ -15,8 +17,8 @@ function App() {
   const [produtoList, setProdutoList] = useState([])
   const [isEditing, setEditing] = useState({ id: "", edit: false});
   const [imagUrl, setImagUrl] = useState("")
-  
-   
+
+ 
 
     const getProdutos = async () => {
       const { data } = await api.get("/produtos");
@@ -25,7 +27,7 @@ function App() {
 
     useEffect(() => {
     getProdutos()
-  }, []);
+    }, []);
   
 
 
