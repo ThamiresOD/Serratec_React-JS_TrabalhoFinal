@@ -7,7 +7,13 @@
 
 .title{
   color: white;
+  font-family: 'Lobster', cursive;
+  transition: 1s;
 
+}
+
+.title:hover{
+  color: rgb(144, 255, 244);
 }
 
 #login{

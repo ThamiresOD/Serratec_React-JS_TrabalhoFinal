@@ -41,7 +41,7 @@ const Login = () => {
       <Header />
 
       <div id="login">
-        <h1 className="title">LOGIN:</h1>
+        <h1 className="title">Acesse sua conta:</h1>
         <p>{String(authenticated)}</p>
         <form className="form" onSubmit={handleLogin}>
           <div className="field">
