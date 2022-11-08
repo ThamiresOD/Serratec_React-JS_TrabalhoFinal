@@ -3,13 +3,14 @@ import { useState, useContext } from "react";
 import Header from "../../Header/header";
 import React from "react";
 import { AuthContext } from "../../contexts/auth";
+import WaterBg from '../Videos/WaterBg.mp4';
 
 const Login = () => {
   const { authenticated, login } = useContext(AuthContext);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const clique = () => {};
+  const clique = () => { };
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -53,6 +54,9 @@ const Login = () => {
             <a className="vendedor" href="/admin">Entrar como Vendedor</a>
           </div>
         </form>
+      </div>
+      <div className='videobg'>
+        <video src={WaterBg} autoPlay loop muted />
       </div>
     </>
   );

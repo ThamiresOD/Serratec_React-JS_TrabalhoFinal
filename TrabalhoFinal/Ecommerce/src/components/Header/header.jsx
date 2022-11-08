@@ -34,14 +34,12 @@ const Header = () => {
             <Navbar.Brand className="nomeLoja" as={Link} to={"/home"}>Aquarium</Navbar.Brand>
           </div>
           <div>
-
           <Nav className="me-auto">
             <Nav.Link as={Link} to={"/carrinho"}>Carrinho</Nav.Link>
             <Nav.Link as={Link} to={"/produto"}>Produtos</Nav.Link>
             <Nav.Link as={Link} to={"/sobrenos"}>Sobre Nós</Nav.Link>
             <Nav.Link onClick={handleLogout}>{loginOut}</Nav.Link>
           </Nav>
-          
           </div>
         </Container>
       </Navbar>

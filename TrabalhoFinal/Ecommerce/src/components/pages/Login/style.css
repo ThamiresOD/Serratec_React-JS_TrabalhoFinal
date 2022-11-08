@@ -25,7 +25,7 @@
   width: 100vw;
   padding: 0 2rem;
   height: 67.4vh;
-
+  z-index: 2;
 }
 
 #login .form{
@@ -65,9 +65,9 @@
 
 }
 
-#login {
-  background-image: url(../Images/1.jpg);
-  height: 100vh;
+.videobg {
+  position: relative;
+  z-index: 1;
 }
 
 .vendedor{

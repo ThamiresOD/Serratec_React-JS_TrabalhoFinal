@@ -9,6 +9,7 @@ import { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { Cartcontext } from "../../context/Context";
 
+
 const Home = () => {
     const [data, setdata] = useState([]);
     const fetchData = async () => {
@@ -26,7 +27,7 @@ const Home = () => {
     return (
         <>
             <Header />
-            <Navbar/>
+            <Navbar />
             <div className="home row container-fluid">
                 {data.map((item, index) => {
                     item.quantity = 1;
@@ -42,6 +43,9 @@ const Home = () => {
                         </div>
                     );
                 })}
+            </div>
+            <div className='videobg'>
+                <video src={WaterBg} autoPlay loop muted />
             </div>
             <Footer />
         </>
