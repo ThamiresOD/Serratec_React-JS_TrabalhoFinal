@@ -1,3 +1,4 @@
+import { useState }from 'react'
 import './style.css'
 import Header from '../../Header/header'
 import Footer from '../../Footer/footer'
@@ -24,45 +25,6 @@ const Home = () => {
    
   return (
              <>
-            <Header />
-            <Navbar/>
-
-            {/* <main>
-                <div className='caroussel'>
-                    <Carousel>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src={slide1}
-                                alt="First slide"
-                            />
-                            <Carousel.Caption>
-                                <h5>Um pescador sempre vê outro pescador de longe!</h5>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src={slide2}
-                                alt="Second slide"
-                            />
-                            <Carousel.Caption>
-                                <h5>Rio bom é o que a gente não sabe o peixe que tem!</h5>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src={slide3}
-                                alt="Third slide"
-                            />
-                            <Carousel.Caption>
-                                <h5>O peixe mesmo na rede do pescador, ainda carrega o cheiro do mar!</h5>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                    </Carousel>
-                </div> */}
-                {/* </main>  */}
                 <div className="home">
                         {data.map((item, index) => {
                             item.quantity = 1;
@@ -78,8 +40,7 @@ const Home = () => {
                             </div>
                             );
                 })}
-                  </div>             
-                
+                  </div>                     
                 <Footer />
                 </> 
     )
