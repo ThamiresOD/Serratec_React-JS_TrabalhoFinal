@@ -55,6 +55,9 @@ const Carrinho = () => {
           </div>
         )}
       </div>
+      <div className='finalizar'>
+        <button className='finalizar'>Finalizar compra e partir dar um tibum! 🐳</button>
+      </div>
       <div className='videobg'>
         <video src={WaterBg} autoPlay loop muted />
       </div>

@@ -11,6 +11,8 @@ h2{
   padding: 128px;
   position: absolute;
   z-index: 2;
+  justify-items: center;
+  width: 100vw;
 }
 .cart .card {
   display: flex;
@@ -55,6 +57,19 @@ h2{
   margin-right: 30px;
   padding: 2px;
   border-radius: 20%;
+}
+
+.finalizar {
+  position: absolute;
+  z-index: 2;
+  margin-left: 30vw;
+  margin-top: 5vh;
+  width: 25vw;
+  
+}
+
+.finalizar:hover {
+  color: #AEE637;
 }
 
 .videobg {
