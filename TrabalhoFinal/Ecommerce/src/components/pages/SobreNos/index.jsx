@@ -8,12 +8,14 @@ import slide1 from '../Images/slide1.jpg'
 import slide2 from '../Images/slide2.jpg'
 import slide3 from '../Images/slide3.jpg'
 import { Carousel } from "react-bootstrap";
+import Navbar from '../../Navbar'
 import "./style.css";
 
 function SobreNos() {
   return (
     <>
       <Header />
+      <Navbar/>
       <div className="sobreNos">
         <div className="texto">
           <h1 className="titulo">Sobre Nós</h1>

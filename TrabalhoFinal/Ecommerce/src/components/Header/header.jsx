@@ -10,19 +10,12 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 const Header = () => {
-  const [loginOut, SetLoginOut] = useState("Login")
   const { logout } = useContext(AuthContext)
 
   const handleLogout = () => {
     logout();
     navigate("/");
   }
-
-  useEffect(()=> {
-    if(localStorage == null){
-      SetLoginOut("logout")
-    }
-  },[]); 
   
 
   return (
@@ -36,9 +29,8 @@ const Header = () => {
           <div>
           <Nav className="me-auto">
             <Nav.Link as={Link} to={"/carrinho"}>Carrinho</Nav.Link>
-            <Nav.Link as={Link} to={"/produto"}>Produtos</Nav.Link>
             <Nav.Link as={Link} to={"/sobrenos"}>Sobre Nós</Nav.Link>
-            <Nav.Link onClick={handleLogout}>{loginOut}</Nav.Link>
+            <Nav.Link className="logout" onClick={handleLogout}>Logout</Nav.Link>
           </Nav>
           </div>
         </Container>

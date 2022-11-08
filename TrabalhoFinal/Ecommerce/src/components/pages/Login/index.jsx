@@ -4,6 +4,7 @@ import Header from "../../Header/header";
 import React from "react";
 import { AuthContext } from "../../contexts/auth";
 import WaterBg from '../Videos/WaterBg.mp4';
+import Navbar from "../../Navbar";
 
 const Login = () => {
   const { authenticated, login } = useContext(AuthContext);
@@ -21,7 +22,7 @@ const Login = () => {
 
   return (
     <>
-      <Header />
+      <Navbar/>
       <div id="login">
         <h1 className="title">Acesse sua conta:</h1>
         <form className="form" onSubmit={handleLogin}>
