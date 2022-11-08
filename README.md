@@ -4,6 +4,12 @@
 <img src="https://img.shields.io/badge/Última_Modificação:-08_de_Novembro_|_2022-darkblue"/>
 <br>
 
+<div align="center">
+  <h1>E-COMMERCE: AQUARIUM 🌊</h1>
+  <img src="/Imagens-Readme/Screenshot_45.png" width="1000px" height="280">
+  
+ </div>
+
 <h4>Projeto de E-commerce desenvolvido em React.</h4>
 
 <p>De acordo com os requisitos passados para os grupos, optamos pela criação de um E-commerce de equipamentos aquáticos, tanto para pesca, como
@@ -41,3 +47,22 @@ Ele acredita que transformar sua loja em um E-commerce será um ótimo investime
 - React;
 - VsCode;
 - MockAPI;
+
+##
+
+<h2>Imagens do projeto:</h2>
+
+##
+
+## Professor responsável:
+| [<img src="https://avatars.githubusercontent.com/u/65171379?v=4" width=115><br><sub>`João Felipe`</sub>](https://github.com/brjoaof) |
+ | :---: |
+
+ 
+<br>
+
+## Equipe do trabalho:
+### Grupo 5 | Turma 8 - Teresópolis
+
+| [<img src="https://avatars.githubusercontent.com/u/110869558?v=4" width=115><br><sub>`Thamires Ouverney`</sub>](https://github.com/ThamiresOD) |  [<img src="https://avatars.githubusercontent.com/u/102622495?v=4" width=115><br><sub>`Erick Ramos`</sub>](https://github.com/ErickNotFound) |  [<img src="https://avatars.githubusercontent.com/u/105762130?v=4" width=115><br><sub>`André Felipe Toigo`</sub>](https://github.com/Andre-Toigo) |  [<img src="https://avatars.githubusercontent.com/u/110869515?v=4" width=115><br><sub>`Thaisa Muniz`</sub>](https://github.com/thaisamuniz89) |  [<img src="https://avatars.githubusercontent.com/u/110734237?v=4" width=115><br><sub>`Fábio Gurgel`</sub>](https://github.com/Fabio-Gurgel) | 
+| :---: | :---: | :---: | :---: | :---: |
