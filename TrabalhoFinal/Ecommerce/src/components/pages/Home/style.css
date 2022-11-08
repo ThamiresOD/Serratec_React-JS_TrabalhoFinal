@@ -6,10 +6,11 @@ h3{
     display: flex;
     align-content: center;
     justify-content: center;
-    position: absolute;
-
+    position: relative;
+    z-index: 2;
+    padding: 2%;
+   
 }
-
 
 .card {
     color: #beee3b;
@@ -17,48 +18,17 @@ h3{
     align-items: center;
     text-align: center;
     padding: 6px;
+    margin: 2px;
+    
 }
 
-
-/*  Carousel  */
-main{
-   justify-content: center; 
-}
-
-.caroussel {
-    display: flex;
-    justify-content: center;
-    width: 40vw;
-    height: 50vh;
-    margin: auto;
-    margin-top: 5vh;
-
-}
-
-.tituloCategoria {
-    text-align: center;
-    color: #beee3b;
-    height: 5vh;
-}
-
-.accordion {
-    width: 80vw;
-    margin: auto;
-}
+.videobg {
+    position: relative;
+    z-index: 1;
+  }
 
 
-.categorias {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 50vh;
-    gap: 5%;
-}
 
-.categoria {
-    position: absolute;
-}
 
 
 

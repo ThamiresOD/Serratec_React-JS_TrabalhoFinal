@@ -11,8 +11,7 @@
     background-color: #212529;
     align-items: flex-end;
     justify-content: center;
-    position: fixed;
-    bottom: 0;
+    position: relative;
     text-align: center;
     opacity: 0.5;
     border-color: none;
