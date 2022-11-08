@@ -1,9 +1,10 @@
-import { useState } from 'react'
+
 import './style.css'
 import Header from '../../Header/header'
 import Footer from '../../Footer/footer'
 
 import React from 'react'
+
 import { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { Cartcontext } from "../../context/Context";
