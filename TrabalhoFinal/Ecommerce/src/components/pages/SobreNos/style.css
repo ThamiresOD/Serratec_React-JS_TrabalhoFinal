@@ -22,6 +22,8 @@
     align-items: center;
     text-align: center;
     padding: 3rem;
+    background-image: url(../Images/1.jpg);
+    background-size: cover;
 }
 
 .sobreNos img{
@@ -31,7 +33,7 @@
 
 .texto{
     color: white;
-    width: 30%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
