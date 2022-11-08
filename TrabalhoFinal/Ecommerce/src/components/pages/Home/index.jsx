@@ -1,3 +1,4 @@
+import { useState }from 'react'
 import './style.css'
 import Header from '../../Header/header'
 import Footer from '../../Footer/footer'
@@ -5,17 +6,48 @@ import fotoProduto from '../Images/produto.jpg'
 import slide1 from '../Images/slide1.jpg'
 import slide2 from '../Images/slide2.jpg'
 import slide3 from '../Images/slide3.jpg'
-import Button from 'react-bootstrap/Button'
-import Card from 'react-bootstrap/Card'
-import Carousel from 'react-bootstrap/Carousel'
+import { Stack, Carousel, Card, Button, Container } from 'react-bootstrap'
 
 
 function Home() {
-    const items = [
-        { id: 1, title: 'Titulo 1', descricao: 'Descrição 1', categoria: 'categoria 1' },
-        { id: 2, title: 'Titulo 2', descricao: 'Descrição 2', categoria: 'categoria 2' }
+    const [itemList, setItemList] = useState(item)
+      
+   
+    const item = [
+        {
+            id: 1,
+            titulo: "Produto 1",
+            descricao: "Descrição 1",
+            valor: 15.00,
+            categoria: 2
+        },
+        {
+            id: 2,
+            titulo: "Produto 2",
+            descricao: "Descrição 2",
+            valor: 25.00,
+            categoria: 1
+        },
+        {
+            id: 3,
+            titulo: "Produto 3",
+            descricao: "Descrição 3",
+            valor: 35.00,
+            categoria: 2
+        }
     ]
 
+    const handleItem = () => {
+        const newItem = {
+            id: id + 1,
+            titulo: titulo,
+            descricao: descricao,
+            valor: valor,
+            categoria: categoria
+        }
+    }
+
+    setItemList([...itemList, newItem])
 
     return (
         <>
@@ -61,6 +93,14 @@ function Home() {
                         </Carousel.Item>
                     </Carousel>
                 </div>
+
+                <Stack>
+                    <h1 className='text-center'>Produtos:</h1>
+                    {itemList.map(i => {
+                        return <h1 key={i.id}>{i.titulo}</h1>
+                    })}
+                    <Button className='float-center' onClick={() => {}}>Add - Carrinho</Button>
+                </Stack>
 
                 <div className='tituloCategoria'>
                     <h1>Menu de Categorias</h1>

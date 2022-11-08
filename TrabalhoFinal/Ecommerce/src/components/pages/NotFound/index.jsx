@@ -2,6 +2,7 @@ import './style.css'
 import whale from '../Images/whale-humpback-whale.gif'
 import Header from '../../Header/header'
 import Footer from '../../Footer/footer'
+import WaterBg from '../Videos/WaterBg.mp4'
 
 function NotFound() {
     return (
@@ -16,8 +17,11 @@ function NotFound() {
                 <div>
                     <img src={whale} alt="Gif da Baleia" />
                 </div>
-                <Footer />
             </main>
+            <div className='videobg'>
+                <video src={WaterBg} autoPlay loop muted />
+            </div>
+            <Footer />
         </>
     )
 }
