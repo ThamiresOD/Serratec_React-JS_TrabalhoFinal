@@ -11,6 +11,7 @@ import Admin from './components/pages/Admin'
 
 import { AuthContext, AuthProvider } from "./components/contexts/auth"
 import { useContext } from 'react'
+import FinalizarCompra from './components/pages/CompraFinalizada'
 
 
 
@@ -37,6 +38,7 @@ function App() {
         <Route path="/produto" element={<Produto />} />
         <Route path="/sobrenos" element={<SobreNos />} />
         <Route path="/admin" element={<Admin/>}/>
+        <Route path="/finalizarcompra" element={<FinalizarCompra/>}/>
         <Route path="*" element={<NotFound />} />
 
       </Routes>

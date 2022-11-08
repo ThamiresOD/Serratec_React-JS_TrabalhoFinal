@@ -56,7 +56,7 @@ const Carrinho = () => {
         )}
       </div>
       <div className='finalizar'>
-        <button className='finalizar'>Finalizar compra e partir dar um tibum! 🐳</button>
+        <button className='finalizar' link to={'/finalizarcompra'}>Finalizar compra e partir dar um tibum! 🐳</button>
       </div>
       <div className='videobg'>
         <video src={WaterBg} autoPlay loop muted />
