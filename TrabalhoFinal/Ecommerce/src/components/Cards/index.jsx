@@ -1,5 +1,6 @@
 import { Card, Button } from 'react-bootstrap';
 import CardGroup from 'react-bootstrap/CardGroup';
+import './style.css'
 
 const CardProduto = ({ produto, deleteProduto, setDescricao, setPreco, setImagUrl, setTitulo, setEditing }) => {
         
@@ -15,9 +16,9 @@ const CardProduto = ({ produto, deleteProduto, setDescricao, setPreco, setImagUr
     
       
     return (
-      <CardGroup>
+      <CardGroup className="teste">
         <Card>
-          <Card.Img variant="top" src={produto.imagUrl} />
+          <Card.Img variant="top" src={produto.imagUrl}/>
           <Card.Body>
             <Card.Title>{produto.titulo}</Card.Title>
             <Card.Text>
