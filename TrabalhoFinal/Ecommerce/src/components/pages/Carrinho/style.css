@@ -1,0 +1,40 @@
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 128px;
+}
+.cart .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart .card img {
+  width: 100px;
+  height: 100px;
+}
+.cart .card p {
+  width: 200px;
+  opacity: 1;
+  color: black;
+}
+.cart .card .quantity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+.cart .card .quantity p {
+  width: 50px;
+  text-align: center;
+  color: black;
+}
+.cart .card .quantity button {
+  width: 50px;
+}
+.cart .total {
+  text-align: right;
+  border-top: 1px solid black;
+}

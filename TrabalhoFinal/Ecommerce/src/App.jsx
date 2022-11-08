@@ -7,6 +7,7 @@ import Produto from './components/pages/Produto'
 import SobreNos from './components/pages/SobreNos'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carrinho from './components/pages/Carrinho'
+import Admin from './components/pages/Admin'
 
 import { AuthContext, AuthProvider } from "./components/contexts/auth"
 import { useContext } from 'react'
@@ -35,6 +36,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/produto" element={<Produto />} />
         <Route path="/sobrenos" element={<SobreNos />} />
+        <Route path="/admin" element={<Admin/>}/>
         <Route path="*" element={<NotFound />} />
 
       </Routes>
