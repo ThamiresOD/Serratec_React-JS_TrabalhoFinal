@@ -17,12 +17,12 @@ const Login = () => {
     login(email, password);
   };
 
+
   return (
     <>
       <Header />
       <div id="login">
         <h1 className="title">Acesse sua conta:</h1>
-        <p>{String(authenticated)}</p>
         <form className="form" onSubmit={handleLogin}>
           <div className="field">
             <label htmlFor="email">Email</label>
