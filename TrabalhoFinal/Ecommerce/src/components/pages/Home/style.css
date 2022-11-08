@@ -26,28 +26,10 @@
     padding: 0 8px;
     font-size: 1.5rem;
 }
-
-.home {
-    display: grid;
-    align-content: center;
-    margin: auto;
-    margin-left: 20vw;
-    position: absolute;
-    margin-top: 5vh;
-}
-
-
-.card {
-    color: #beee3b;
-    margin-bottom: 5vh;
-
-}
-
-
-/*  Carousel  */
 main{
    justify-content: center; 
 }
+
 
 .caroussel {
     display: flex;
@@ -85,5 +67,12 @@ main{
 }
 
 
+
+
+/* .color1 { #484848 };
+.color2 { #006465 };
+.color3 { #0f928c };
+.color4 { #00c9d2 };
+.color5 { #beee3b }; */
 
 

@@ -7,17 +7,36 @@
     width: 100%;
     color: #ffffdd;
     display: flex;
-    height: 15vh;
+    height: 50vh;
     background-color: #212529;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     position: fixed;
     bottom: 0;
     text-align: center;
-    opacity: 0.5;
+    opacity: 0.6;
     border-color: none;
 }
 
 .footer:hover {
+    opacity: 1;
+}
+
+.botaoTop {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: absolute;
+    width: 90vw;
+    font-size: 30px;
+}
+
+button {
+    background-color: #212529;
+    border-color: #212529;
+    border: 0;
+}
+
+button:hover {
     opacity: .8;
 }
