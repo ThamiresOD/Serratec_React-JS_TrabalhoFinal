@@ -1,1 +1,9 @@
+.nomeLoja{
+    font-size: 1.5rem !important;
+    font-family: 'Lobster', cursive;
+    transition: 0.7s;
+}
 
+.nomeLoja:hover{
+    color: rgb(144, 255, 244) !important;
+}
