@@ -13,10 +13,7 @@
     justify-content: center;
     position: relative;
     text-align: center;
-    opacity: 0.5;
+
     border-color: none;
 }
 
-.footer:hover {
-    opacity: .8;
-}
