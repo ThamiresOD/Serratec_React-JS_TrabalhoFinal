@@ -62,3 +62,8 @@
   border-radius: 5px;
   border-color: rgb(74, 190, 211);
 }
+
+#login {
+  background-image: url(../Images/1.jpg);
+  height: 100vh;
+}

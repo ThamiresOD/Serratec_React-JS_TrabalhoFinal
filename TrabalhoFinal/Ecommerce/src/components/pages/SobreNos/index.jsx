@@ -31,7 +31,7 @@ function SobreNos() {
           </div>
           <div className="informacao">
             <img src={andre} alt="" />
-            <a href="https://github.com/Andre-Toigo">André Roigo</a>
+            <a href="https://github.com/Andre-Toigo">André Toigo</a>
           </div>
           <div className="informacao">
             <img src={thaisa} alt="" />
