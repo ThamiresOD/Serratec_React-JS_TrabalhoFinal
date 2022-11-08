@@ -9,3 +9,8 @@
     flex: none!important;
 }
 
+.videobg {
+  position: relative;
+  z-index: 1;
+}
+

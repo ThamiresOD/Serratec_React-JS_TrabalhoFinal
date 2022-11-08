@@ -62,7 +62,11 @@
   background-color: rgb(74, 190, 211);
   padding: 5px;
   border-radius: 5px;
+  border-color: rgb(74, 190, 211);
+}
 
+.entrar:hover {
+  opacity: .8;
 }
 
 .videobg {
@@ -81,6 +85,10 @@
   border-radius: 5px;
   padding: 5px;
   transition: 0s;
+}
+
+.vendedor:hover {
+  opacity: .8;
 }
 
 .vendedor:hover{

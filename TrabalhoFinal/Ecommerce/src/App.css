@@ -3,3 +3,17 @@ body {
   background-image: url(../Images/1.jpg);
   background-repeat: no-repeat;
 }
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #212529;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #AEE637;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #212529;  /* creates padding around scroll thumb */
+}

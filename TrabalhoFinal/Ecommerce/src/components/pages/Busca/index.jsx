@@ -11,8 +11,6 @@ function Busca({ value, onChange }) {
     }
 
     
-    
-
     return (
        <div className="container">
         <form className="d-flex" role="search">
