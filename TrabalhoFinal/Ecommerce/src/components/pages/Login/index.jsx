@@ -1,17 +1,18 @@
 import "./style.css";
 import { useState, useContext } from "react";
 import Header from "../../Header/header";
-import React from 'react';
+import React from "react";
 import { AuthContext } from "../../contexts/auth";
-
 
 const Login = () => {
   const { authenticated, login } = useContext(AuthContext);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
+  const clique = () => {};
+
   const handleLogin = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     console.log("Login efetuado", { email, password });
 
     login(email, password);
@@ -46,7 +47,10 @@ const Login = () => {
             />
           </div>
           <div className="actions">
-            <button className="entrar" type="submit">Entrar</button>
+            <button className="entrar" type="submit">
+              Entrar como Cliente
+            </button>
+            <a className="vendedor" href="/admin">Entrar como Vendedor</a>
           </div>
         </form>
       </div>

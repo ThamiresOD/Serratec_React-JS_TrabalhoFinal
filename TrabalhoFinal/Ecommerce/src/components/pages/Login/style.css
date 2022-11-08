@@ -50,7 +50,9 @@
 }
 
 #login .actions{
+  display: flex;
   text-align: center;
+  justify-content: space-around;
   margin-top: 1rem;
   color: aqua;
 }
@@ -60,10 +62,27 @@
   background-color: rgb(74, 190, 211);
   padding: 5px;
   border-radius: 5px;
-  border-color: rgb(74, 190, 211);
+
 }
 
 #login {
   background-image: url(../Images/1.jpg);
   height: 100vh;
+}
+
+.vendedor{
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(74, 190, 211);
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 0s;
+}
+
+.vendedor:hover{
+  color: rgb(255, 255, 255);
 }
