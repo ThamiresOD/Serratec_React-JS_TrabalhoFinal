@@ -1,5 +1,3 @@
-
-
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +18,7 @@ video {
     position: absolute;
     width: 100%;
     height: 100vh;
-    top: 0;
+    top: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
