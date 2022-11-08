@@ -1,8 +1,35 @@
+.nav{
+    width: 80%;
+    height: 60px;
+    background-color: #AEE637;
 
+}
+.nav_box{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #AEE637;
 
+}
+.my_shop{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.cart{
+    cursor: pointer;
+    color: white;
+    padding: 0 8px;
+    font-size: 1.5rem;
+}
 main{
    justify-content: center; 
 }
+
 
 .caroussel {
     display: flex;
