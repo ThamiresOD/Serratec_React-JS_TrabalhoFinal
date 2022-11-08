@@ -112,23 +112,23 @@ setPreco("")
   return (
     
     <>
-    <Container className="bg-secondary">
-   <h1 className="text-center">Lista de Produtos</h1>
+    <Container className="bg-dark">
+   <h1 className="text-center text-primary" >Lista de Produtos</h1>
 
    <Form>
-        <Form.Group className="mb-3" >
-          <Form.Label>Título:</Form.Label>
-          <Form.Control type="text" placeholder="Insira o título" onChange={ e => setTitulo(e.target.value)} value={titulo} />
+        <Form.Group className="form" >
+          <Form.Label className="text-primary">Título:</Form.Label>
+          <Form.Control type="text text-primary" placeholder="Insira o título" onChange={ e => setTitulo(e.target.value)} value={titulo} />
         </Form.Group>
-        <Form.Group className="mb-3" >
+        <Form.Group className="mb-3 text-primary" >
         <Form.Label>Preço:</Form.Label> 
         <Form.Control type="text" placeholder="Insira o preço" onChange={ e => setPreco(e.target.value)} value={preco} /> 
         </Form.Group>
-        <Form.Group className="mb-3" >
+        <Form.Group className="mb-3 text-primary" >
         <Form.Label>Imagem:</Form.Label> 
         <Form.Control type="text" placeholder="Insira a url da imagem" onChange={ e => setImagUrl(e.target.value)} value={imagUrl} /> 
         </Form.Group>
-        <Form.Group className="mb-3">
+        <Form.Group className="mb-3 text-primary">
           <Form.Label>Descrição: </Form.Label>
           <Form.Control as="textarea" rows={3} onChange={ e => setDescricao(e.target.value)} value={descricao} />
         
