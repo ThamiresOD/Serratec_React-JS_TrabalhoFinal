@@ -4,6 +4,7 @@ import api from '../../../service/api'
 import { Button, Container, Form, Stack } from 'react-bootstrap';
 import CardProduto from '../../Cards'
 import Busca from '../Busca'
+import Header from '../../Header/header';
 
 
 
@@ -112,6 +113,7 @@ setPreco("")
   return (
     
     <>
+    <Header/>
     <Container className="bg-dark">
    <h1 className="text-center text-primary" >Lista de Produtos</h1>
 
