@@ -20,7 +20,7 @@ Ele acredita que transformar sua loja em um E-commerce será um ótimo investime
 
 ##
 
-`Objetivo:`<br/><br/>
+`Objetivo:`<br/>
 - Construir uma interface agradável para que seja possível fazer um CRUD e consumir a api criada na matéria anterior ou consumir uma Mock API;
 - Pode ser um Painel Administrativo do Ecommerce, onde será possível ver os produtos e suas informações, além de ser possível cadastrar, atualizar e deletar;
 - Pode ser o Ecommerce em si, onde será possível adicionar um produto no carrinho, remover, atualizar quantidade e excluir do Carrinho. Ou  mesmo um CRUD de cadastro de usuário;
@@ -54,14 +54,14 @@ Ele acredita que transformar sua loja em um E-commerce será um ótimo investime
 
 ##
 
-## Professor responsável:
+## 👨‍🏫 Professor responsável:
 | [<img src="https://avatars.githubusercontent.com/u/65171379?v=4" width=115><br><sub>`João Felipe`</sub>](https://github.com/brjoaof) |
  | :---: |
 
  
 <br>
 
-## Equipe do trabalho:
+## 👨‍💻 Equipe do trabalho:
 ### Grupo 5 | Turma 8 - Teresópolis
 
 | [<img src="https://avatars.githubusercontent.com/u/110869558?v=4" width=115><br><sub>`Thamires Ouverney`</sub>](https://github.com/ThamiresOD) |  [<img src="https://avatars.githubusercontent.com/u/102622495?v=4" width=115><br><sub>`Erick Ramos`</sub>](https://github.com/ErickNotFound) |  [<img src="https://avatars.githubusercontent.com/u/105762130?v=4" width=115><br><sub>`André Felipe Toigo`</sub>](https://github.com/Andre-Toigo) |  [<img src="https://avatars.githubusercontent.com/u/110869515?v=4" width=115><br><sub>`Thaisa Muniz`</sub>](https://github.com/thaisamuniz89) |  [<img src="https://avatars.githubusercontent.com/u/110734237?v=4" width=115><br><sub>`Fábio Gurgel`</sub>](https://github.com/Fabio-Gurgel) | 
