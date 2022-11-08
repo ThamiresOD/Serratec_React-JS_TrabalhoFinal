@@ -3,9 +3,8 @@ import './style.css'
 import WaterBg from '../Videos/WaterBg.mp4'
 import Header from '../../Header/header'
 import Footer from '../../Footer/footer'
-
+import Navbar from '../../Navbar'
 import React from 'react'
-
 import { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { Cartcontext } from "../../context/Context";
@@ -27,6 +26,7 @@ const Home = () => {
     return (
         <>
             <Header />
+            <Navbar/>
             <div className="home col-3 container-fluid">
                 {data.map((item, index) => {
                     item.quantity = 1;
