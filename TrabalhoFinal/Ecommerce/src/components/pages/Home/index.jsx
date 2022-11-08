@@ -1,5 +1,6 @@
 
 import './style.css'
+import WaterBg from '../Videos/WaterBg.mp4'
 import Header from '../../Header/header'
 import Footer from '../../Footer/footer'
 
@@ -26,7 +27,7 @@ const Home = () => {
     return (
         <>
             <Header />
-            <div className="home">
+            <div className="home col-3 container-fluid">
                 {data.map((item, index) => {
                     item.quantity = 1;
                     return (
@@ -41,6 +42,9 @@ const Home = () => {
                         </div>
                     );
                 })}
+            </div>
+            <div className='videobg'>
+                <video src={WaterBg} autoPlay loop muted />
             </div>
             <Footer />
         </>

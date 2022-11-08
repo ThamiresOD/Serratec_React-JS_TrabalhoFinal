@@ -7,28 +7,28 @@
 }
 
 main {
-    height: 60vh;
+   
 }
 
 .videobg {
     width: 100%;
-    height: 100%;
+    height: 70vh;
 }
 
 video {
     width: 100%;
-    height: 100vh;
     object-fit: cover;
 }
 
 .notfound {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
 } 
 
 h3 {
