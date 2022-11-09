@@ -12,7 +12,7 @@ function FinalizarCompra() {
       <Navbar/>
 
       <div>
-        <h1>Compra finalizada com sucesso!</h1>
+        <h1>Em construção ⚒️</h1>
       </div>
 
       <div className='videobg'>
