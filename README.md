@@ -52,6 +52,8 @@ Ele acredita que transformar sua loja em um E-commerce será um ótimo investime
 
 <h2>💻 Imagens do projeto:</h2>
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/110734237/200721181-2b11c3a3-d541-4d36-8878-13c5c9e46ec7.gif)
+
 ##
 
 ## 👨‍🏫 Professor responsável:
