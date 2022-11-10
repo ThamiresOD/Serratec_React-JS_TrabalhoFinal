@@ -2,9 +2,6 @@ import { useEffect } from "react"
 
 
 function Busca({ value, onChange }) {
-    const [item, setItem] = useState([])
-    const [itemFiltrado, setFiltrado] = useState(item)
-    const [busca, setBusca] = useState('')
     
     function handleChange(event) {
         onChange(event.target.value) 
